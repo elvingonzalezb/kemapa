@@ -70,7 +70,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
-$active_group = 'local';
+$active_group = 'produccion';
 $query_builder = TRUE;
 
 $db['default'] = array(
@@ -118,12 +118,12 @@ $db['local'] = array(
 );
 
 
-$db['mistica'] = array(
+$db['produccion'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'misticad_l14307',
-	'password' => 'swordfish#$415',
-	'database' => 'misticad_kemapa',
+	'hostname' => '18.231.85.55',
+	'username' => 'elvin',
+	'password' => '12862003',
+	'database' => 'kemapa',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

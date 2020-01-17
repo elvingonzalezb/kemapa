@@ -92,7 +92,7 @@ else
       <div class="top-bar animate-dropdown">
         <div class="container">
           <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <div class="linksTop">
                   <ul>
                       <li><a href=""><i class="fa fa-envelope-o"></i> <?php echo getConfig('correo'); ?></a></li>
@@ -104,7 +104,7 @@ else
                 </div><!-- /.social-icons -->
             </div><!-- /.cnt-account -->
 
-            <div class="col-md-4">
+            <div class="col-md-6">
               <div class="menuTop">
                 <ul>
                  <?php
@@ -131,32 +131,32 @@ else
                       $tw = getConfig('enlace_twitter');
                       if($tw!="")
                       {
-                         echo '<a href="'.$tw.'" target="_blank" ><i class="icon fa fa-twitter"></i></a>';
+                         echo '<li><a href="'.$tw.'" target="_blank" ><i class="icon fa fa-twitter"></i></a></li>';
                       }
 
                       $pin = getConfig('enlace_pinterest');
                       if($pin != "")
                       {
-                         echo'<a href="'.$pin.'" target="_blank" ><i class="icon fa fa-pinterest"></i></a>';
+                         echo'<li><a href="'.$pin.'" target="_blank" ><i class="icon fa fa-pinterest"></i></a></li>';
                       }
 
 
                       $ins = getConfig('enlace_instagram');
                       if($ins!="")
                       {
-                         echo '<a href="'.$ins.'" target="_blank" ><i class="icon fa fa-instagram"></i></a>';
+                         echo '<li><a href="'.$ins.'" target="_blank" ><i class="icon fa fa-instagram"></i></a></li>';
                       }
 
                       $you = getConfig('enlace_youtube');
                       if($you!="")
                       {
-                         echo '<a href="'.$you.'" target="_blank" ><i class="icon fa fa-youtube"></i></a>';
+                         echo '<li><a href="'.$you.'" target="_blank" ><i class="icon fa fa-youtube"></i></a></li>';
                       }
 
                          $sk = getConfig('enlace_skype');
                       if($sk!="")
                       {
-                         echo '<a href="'.$sk.'" target="_blank" ><i class="icon fa fa-skype"></i></a>';
+                         echo '<li><a href="'.$sk.'" target="_blank" ><i class="icon fa fa-skype"></i></a></li>';
                       }
 
 

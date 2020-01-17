@@ -87,7 +87,7 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 defined('GOOGLEMAP_KEY')    OR define('GOOGLEMAP_KEY', 'AIzaSyDTJhXR43VGvJ0ekuPWRqLT-nY1-GgKm6k');
 //define('BASE_URL', 'http://localhost/kemapa/');
-define('BASE_URL', 'http://18.231.85.55/public/kemapa/');
+//define('BASE_URL', 'http://18.231.85.55/public/kemapa/');
 
 define('NOMBRE_SITIO', 'KEMAPA');
 define('DOMINIO_SITIO', 'http://18.231.85.55/kemapa');

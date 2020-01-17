@@ -14,16 +14,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 
 // localhost
-$config['recaptcha_sitekey'] = "6LeG72oUAAAAABO5engG6jUG8zgsA3JzKUGYKFix";
-$config['recaptcha_secretkey'] = "6LeG72oUAAAAALXODG19XLRTyMrT61Hf-xJ0rQhL";
+//$config['recaptcha_sitekey'] = "6LeG72oUAAAAABO5engG6jUG8zgsA3JzKUGYKFix";
+//$config['recaptcha_secretkey'] = "6LeG72oUAAAAALXODG19XLRTyMrT61Hf-xJ0rQhL";
 
 /*
 $config['recaptcha_sitekey'] = "6LcN_h0UAAAAAK4MJjLdhTtVCoAnjbdi-5VrT-vN";
 $config['recaptcha_secretkey'] = "6LcN_h0UAAAAANb2wR-PKAqzw0p9iBmoupibNhaK";
 */
 
-// MISTICA
-//$config['recaptcha_sitekey'] = "6LcXLzoUAAAAAGfh3BzEAW1YTrFzE6sf_CREf-Zt";
-//$config['recaptcha_secretkey'] = "6LcXLzoUAAAAABIMqht_xsZkz_UNfWMEpWH5tyJ_";
+// produccion
+$config['recaptcha_sitekey'] = "6LcXLzoUAAAAAGfh3BzEAW1YTrFzE6sf_CREf-Zt";
+$config['recaptcha_secretkey'] = "6LcXLzoUAAAAABIMqht_xsZkz_UNfWMEpWH5tyJ_";
 
 $config['lang'] = "es";

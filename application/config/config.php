@@ -24,11 +24,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'http://localhost/kemapa/';
-//$config['base_url']	= 'http://www.misticadigital.com/kemapa/';
+//$config['base_url'] = 'http://localhost/kemapa/';
+$config['base_url']	= 'http://18.231.85.55/kemapa/';
 
-$config['captcha_url']	= 'http://localhost/kemapa/assets/frontend/captcha/';
-//$config['captcha_url']	= 'http://www.misticadigital.com/kemapa/assets/frontend/captcha/';
+//$config['captcha_url']	= 'http://localhost/kemapa/assets/frontend/captcha/';
+$config['captcha_url']	= 'http://18.231.85.55/kemapa/assets/frontend/captcha/';
 
 
 

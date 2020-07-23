@@ -25,10 +25,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 
 //$config['base_url'] = 'http://localhost/kemapa/';
-$config['base_url']	= 'http://18.231.85.55/public/kemapa/';
+$config['base_url']	= 'http://18.230.7.31/kemapa/';
 
 //$config['captcha_url']	= 'http://localhost/kemapa/assets/frontend/captcha/';
-$config['captcha_url']	= 'http://18.231.85.55/public/kemapa/assets/frontend/captcha/';
+$config['captcha_url']	= 'http://18.230.7.231/kemapa/assets/frontend/captcha/';
 
 
 

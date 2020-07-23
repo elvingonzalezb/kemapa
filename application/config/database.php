@@ -120,9 +120,9 @@ $db['local'] = array(
 
 $db['produccion'] = array(
 	'dsn'	=> '',
-	'hostname' => '18.231.85.55',
-	'username' => 'elvin',
-	'password' => '12862003',
+	'hostname' => '18.230.7.231',
+	'username' => 'root',
+	'password' => 'rt%27040RT%715',
 	'database' => 'kemapa',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

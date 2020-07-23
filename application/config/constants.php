@@ -90,7 +90,7 @@ defined('GOOGLEMAP_KEY')    OR define('GOOGLEMAP_KEY', 'AIzaSyDTJhXR43VGvJ0ekuPW
 //define('BASE_URL', 'http://18.231.85.55/public/kemapa/');
 
 define('NOMBRE_SITIO', 'KEMAPA');
-define('DOMINIO_SITIO', 'http://18.231.85.55/kemapa');
+define('DOMINIO_SITIO', 'http://18.230.7.231/kemapa');
 
 
 define('TWITTER_SITE', '@elvingonzalezb');
